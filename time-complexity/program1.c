@@ -14,6 +14,9 @@ void func1(int array[], int length)
     {
         product *= array[i];
     }
+
+    printf("Sum is : %d\n", sum);
+    printf("Product is : %d\n", product);
 }
 
 int main() 
